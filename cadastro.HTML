@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/desenho.Css">
+    
+
+    <title>Document</title>
+</head>
+<body> 
+    <div  style="color: white; font-size: 25px; text-align: center;" class="menu">
+        <a class="voltar"     href="Vendas.HTML"> voltar </a>
+        <img width="200px" height="100" 
+        src="imagens/usuarios-alt.svg" >
+    <form action="#" method="get" class="formulario" >
+        <fieldset> 
+            <legend  style="width: 80%" class="titulo2"> Cadastre-se </legend>
+    <label>
+        nome:
+        <input type="text" id="nome" placeholder="digite o seu nome" name="nome" required autofocus>
+    </label><br> 
+    <label> sobrenome:
+        <input type="text" id="sobrenome" placeholder="digie o seu sobrenome " name="sobrenome" required autofocus>
+    </label><br>
+    <label>Email:
+        <input type="email" id="email" placeholder="digite o seu e-mail" name="email" required autofocus >
+    </label><br>
+    <label>Senha:
+        <input type="password" id="senha" placeholder="digite sua senha " name="senha" required autofocus>
+
+    </label><br>
+    <br><hr>
+    <h3>Informe o seu gênero</h3>
+    <label>
+        <input type="radio" id="genero" name="genero" value="masculino"> Masculino
+        <input type="radio" id="genero" name="genero" value="feminino"> Feminino
+        <input type="radio" id="genero" name="genero" value="outros"> Outros
+    </label>
+    <hr><br>
+    <h3>Informe qual opção você deseja no site  </h3>
+    <label>Vendedor
+        <input type="checkbox" value="vendedor" name="endedor">  <br>
+        Comprador
+        <input type="checkbox" value="Comprador" name="Comprador">  <br>
+        Divulgador
+        <input type="checkbox" value="Divulgador" name="Divulgador">  <br>
+    </label>
+    <br><br><hr>
+    <h3>Informe sua data de nascimento </h3>
+    informe sua data de nascimento 
+    <input style="font-size: 19px;" type="date" name="nascimento" value="data-nascimento"> 
+    <br><br><br><hr>
+    <h3>Qual marca é a sua preferida ?</h3>
+    <select style="font-size: 22px;">
+        <option value="" selected disabled> Selecione</option>
+        <option value="nike"> Nike </option>
+        <option value="Adidas"> Adidas</option>
+        <option value="Lacoste"> Lacoste </option>
+        <option value="Puma"> Puma </option>
+    </select>
+<br><br><br>
+
+    <input class="enviar" type="submit" id="enviar" name="enviar">
+
+
+
+
+
+
+
+
+
+     </form> </fieldset></div>
+</body>
+</html>

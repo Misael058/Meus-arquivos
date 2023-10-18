@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+nav {
+    background-color: black;
+}
+nav li {
+    display: inline-block;
+}
+ nav li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    padding: 15px;
+}
+.menu {
+    position: absolute;
+    display: none;
+
+}
+
+
+.menu a {
+    display: block;
+    color: black;
+    background-color: bisque;
+    border: solid 1px black;
+}
+
+.option:hover .menu {
+    display: block;
+}
